@@ -56,7 +56,6 @@ Esempio se in linux si mette "/" senza specificare altro non prenderà la cartel
 	- dovranno scaricare il file PStudenti.jar 
 	- metterlo nella cartella che si vuole salvare
 	- eseguirlo con un doppio click o da terminale con ```java -jar PStudenti.jar```
-	```
 	- e rinominare il file out.txt con il proprio cognome
 
 ## possibili parametri
