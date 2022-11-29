@@ -1,6 +1,6 @@
 # ProgettoInFile
 
-programma che consente di salvare un progetto di file di carattteri in un file e viceversa.
+programma che consente di salvare un progetto di file di caratteri in un file e viceversa.
 Comprende versioni per normali utenti ma anche per utenza scolastica
 
 # Normale utenza
@@ -8,47 +8,68 @@ Comprende versioni per normali utenti ma anche per utenza scolastica
 ## installazione
 
 - scaricare i file FolderInFile.jar e FileInFolder.jar
-- eseguirli da terminale o con un doppio clik
-	- se da terminale usare la formula java -jar nome_file [eventuali_parametri]
+- eseguirli da terminale o con un doppio click
+	- se da terminale usare la formula ```java -jar nome_file [eventuali_parametri]```
 
 ## possibili parametri
 
 ### FolderInFile
--i [output]	// path file di input     (default=out.txt)
--f [folder]	// path folder di output  (default=out)	
--h 			// mostra help
--g 			// mostra gui
+| indicatore | parametro | default           | descrizione           |
+| :--------- | :-------- | :---------------- | :-------------------- |
+| -i         | [output]  | (default=out.txt) | path file di input    |
+| -f         | [folder]  | (default=out)     | path folder di output |
+| -h         |           |                   | mostra help           |
+| -g         |           |                   | mostra gui            |
 
 ### FileInFolder
--a [autore]	// nome dell'autore		(default=null)
--o [output]	// path file di output  (default=out.txt)
--f [folder]	// path folder di input (default=.)
--m			// mostra file nascosti (default=no)
--h 			// mostra help
--g 			// mostra gui
+
+| indicatore | parametro | default           | descrizione                       |
+| :--------- | :-------- | :---------------- | :-------------------------------- |
+| -a         | [autore]  | (default=null)    | nome dell'autore                  |
+| -o         | [output]  | (default=out.txt) | path file di output               |
+| -f         | [folder]  | (default=.)       | path folder di input              |
+| -m         |           |                   | mostra file nascosti (default=no) |
+| -h         |           |                   | mostra help                       |
+| -g         |           |                   | mostra gui                        |
 
 
-## avvertenzze 
-in caso i programmi ci mettano troppo ad completare le operazioni interromperli e verificare i percori, perchè si potrebbe aver speficicato un percorso inesatto e quindi stia venendo creato un file non desiderato.
-Esempio se in linux si mette "/" senza specificare altro non prendera la cartella corrente ma la root quindi copiera l'intero file sistem nel file, e questo non è buono.
+## avvertenze  
+in caso i programmi ci mettano troppo ad completare le operazioni interromperli e verificare i percorsi, perché si potrebbe aver specificato un percorso inesatto e quindi stia venendo creato un file non desiderato.
+Esempio se in linux si mette "/" senza specificare altro non prenderà la cartella corrente ma la root quindi copierà l'intero file system nel file, e questo non è buono.
 
-è consigliato usare percorsi che inizaino con il "." e mettendo il programma dentro la cartella da analizare o in cui si vuole che venga creata la cartella di output
+è consigliato usare percorsi che iniziano con il "." e mettendo il programma dentro la cartella da analizzare o in cui si vuole che venga creata la cartella di output
 
 # Utenza scolastica
 
 ## installazione 
 
-- il docende 
-	- dovra scaricare FileInFolder.jar o MultiFileInFolder.jar
+- il docente 
+	- dovrà scaricare FileInFolder.jar o MultiFileInFolder.jar
 	- FileInFolder.jar
-		- si estrarra un file singolarmente
+		- si estrarrà un file singolarmente
 	- MultiFileInFolder.jar
 		- si crea una cartella 
 		- si mette dentro tutti i file generati dagli studenti
-		- si mettera il programma nella stessa cartella e lo si avviera
-		- e si otterra in una cartella le cartelle estratte da ogni file in una cartella per ogni file chiamata o con il nome del fine di input o lo stesso ma con una "F" in fondo
+		- si metterà il programma nella stessa cartella e lo si avvierà
+		- e si otterrà in una cartella le cartelle estratte da ogni file in una cartella per ogni file chiamata o con il nome del fine di input o lo stesso ma con una "F" in fondo
 - gli studenti 
 	- dovranno scaricare il file PStudenti.jar 
 	- metterlo nella cartella che si vuole salvare
-	- eseguirlo con un doppio click o da terminale con java -jar PStudenti.jar
+	- eseguirlo con un doppio click o da terminale con ```java -jar PStudenti.jar```
+	```
 	- e rinominare il file out.txt con il proprio cognome
+
+## possibili parametri
+
+### MultiFileInFolder
+| indicatore | parametro | default           | descrizione           |
+| :--------- | :-------- | :---------------- | :-------------------- |
+| -i         | [input]   | (default=.) 		 | path folder di input  |
+| -f         | [folder]  | (default=out)     | path folder di output |
+| -h         |           |                   | mostra help           |
+| -g         |           |                   | mostra gui            |
+
+### PStudenti
+
+| indicatore | parametro | default           | descrizione                       |
+| :--------- | :-------- | :---------------- | :-------------------------------- |

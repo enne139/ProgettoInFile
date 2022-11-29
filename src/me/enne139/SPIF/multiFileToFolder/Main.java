@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Main {
 
 	public static void main(String[] args) {
-		// -i output	// path folder di input
+		// -i input	// path folder di input
 		// -f folder	// path folder di output
 		// -h 			// mostra help
 		// -g 			// mostra gui
