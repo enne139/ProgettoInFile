@@ -13,7 +13,7 @@ Comprende versioni per normali utenti ma anche per utenza scolastica
 
 ## possibili parametri
 
-### FolderInFile
+### FileInFolder 
 | indicatore | parametro | default           | descrizione           |
 | :--------- | :-------- | :---------------- | :-------------------- |
 | -i         | [output]  | (default=out.txt) | path file di input    |
@@ -21,7 +21,7 @@ Comprende versioni per normali utenti ma anche per utenza scolastica
 | -h         |           |                   | mostra help           |
 | -g         |           |                   | mostra gui            |
 
-### FileInFolder
+### FolderInFile
 
 | indicatore | parametro | default           | descrizione                       |
 | :--------- | :-------- | :---------------- | :-------------------------------- |
