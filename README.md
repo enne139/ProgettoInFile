@@ -34,7 +34,7 @@ Comprende versioni per normali utenti ma anche per utenza scolastica
 
 
 ## avvertenze  
-in caso i programmi ci mettano troppo ad completare le operazioni interromperli e verificare i percorsi, perché si potrebbe aver specificato un percorso inesatto e quindi stia venendo creato un file non desiderato.
+in caso i programmi ci mettano troppo a completare le operazioni, interromperli e verificare i percorsi, perché si potrebbe aver specificato un percorso inesatto e quindi stia venendo creato un file non desiderato.
 Esempio se in linux si mette "/" senza specificare altro non prenderà la cartella corrente ma la root quindi copierà l'intero file system nel file, e questo non è buono.
 
 è consigliato usare percorsi che iniziano con il "." e mettendo il programma dentro la cartella da analizzare o in cui si vuole che venga creata la cartella di output
@@ -51,11 +51,11 @@ Esempio se in linux si mette "/" senza specificare altro non prenderà la cartel
 		- si crea una cartella 
 		- si mette dentro tutti i file generati dagli studenti
 		- si metterà il programma nella stessa cartella e lo si avvierà
-		- e si otterrà in una cartella le cartelle estratte da ogni file in una cartella per ogni file chiamata o con il nome del fine di input o lo stesso ma con una "F" in fondo
+		- e si otterranno le cartelle estratte da ogni file, una cartella per ogni file chiamata o con il nome del fine di input o lo stesso ma con una "F" in fondo
 - gli studenti 
 	- dovranno scaricare il file PStudenti.jar 
-	- metterlo nella cartella che si vuole salvare
-	- eseguirlo con un doppio click o da terminale con ```java -jar PStudenti.jar```
+	- metterlo nella cartella che si vuole converitire in file (src)
+	- eseguirlo con un doppio click (solo su windows) o da terminale con ```java -jar PStudenti.jar```
 	- e rinominare il file out.txt con il proprio cognome
 
 ## possibili parametri
