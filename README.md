@@ -16,7 +16,7 @@ Comprende versioni per normali utenti ma anche per utenza scolastica
 ### FileInFolder 
 | indicatore | parametro | default           | descrizione           |
 | :--------- | :-------- | :---------------- | :-------------------- |
-| -i         | [output]  | (default=out.txt) | path file di input    |
+| -i         | [input]   | (default=out.txt) | path file di input    |
 | -f         | [folder]  | (default=out)     | path folder di output |
 | -h         |           |                   | mostra help           |
 | -g         |           |                   | mostra gui            |
